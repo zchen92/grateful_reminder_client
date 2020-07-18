@@ -1,0 +1,78 @@
+body {
+    background-color:azure;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:#232528;
+    /* color: rgb(237, 120, 108); */
+    display:flex
+}
+
+.container {
+    background-image: url(https://images.unsplash.com/photo-1492269682833-cd80f8a20b08?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80);
+    /* background-image: url(https://mymodernmet.com/wp/wp-content/uploads/archive/MMrOYLHkiZd3eEoAvT-O_1082083017.jpeg); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex; 
+    flex:1;
+    flex-direction: column;
+    background-color:azure;
+    border-radius: 5px;
+  } 
+
+header {
+    min-height: 10vh;
+    min-width: 100vw;
+    text-align: center;
+    font-size: 60px;
+    padding:5px;
+    color: #232528;
+    /* color:rgb(237, 120, 108); */
+    font-family: cursive;
+}
+
+.formBox {
+    margin: 5%;
+    display: flex;
+    font-size: 30px;
+} 
+
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+input[type="text"] {
+    flex-basis:50%;
+    padding: .3em;
+}
+input[type="number"] {
+    flex-basis:50%;
+    padding: .3em;
+}
+
+input[type="submit"] {
+    flex-basis:51%;
+    padding: .5em;
+    margin: .5em;
+    margin-top: 1.5em;
+    font: 20px;
+}
+
+label {
+    flex-basis: 51%;
+    text-align: center;
+}
+
+.diary{
+    margin:5%;
+    font-size: 30px;
+    flex: 1
+}
+
+footer>h3 {
+    font-size: 25px;
+    color: black;
+    text-align: center;
+}
+
